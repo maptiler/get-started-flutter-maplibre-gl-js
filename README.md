@@ -1,4 +1,4 @@
-# get-started-flutter-maplibre-gl-js
+# Get started with Flutter and MapLibre GL JS
 
 Quick way to star a native map application with MapLibre GL JS using Flutter.
 
