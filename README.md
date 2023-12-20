@@ -1,10 +1,10 @@
 # Get started with Flutter and MapLibre GL JS
 
-Quick way to star a native map application with MapLibre GL JS using Flutter.
+A quick way to start a native map application with MapLibre GL JS using Flutter.
 
-A simple fullscreen map application as an example on how to use MapTiler maps together with Flutter and MapLibre GL JS for your own native app.
+A simple fullscreen map application as an example of how to use MapTiler maps together with Flutter and MapLibre GL JS for your own native app.
 
-This app is made with [VS Code Flutter extension](https://docs.flutter.dev/get-started/editor?tab=vscode) along with the plugin
+We have made this app using the [VS Code Flutter extension](https://docs.flutter.dev/get-started/editor?tab=vscode) and the plugin
 [flutter-maplibre-gl](https://github.com/maplibre/flutter-maplibre-gl/tree/main).
 
 ## Installation and setting up
@@ -39,7 +39,7 @@ This app is made with [VS Code Flutter extension](https://docs.flutter.dev/get-s
 
 ## Resources
 
-A few resources to get you started if this is your first Flutter project:
+Here are a few resources to get you started if this is your first Flutter project:
 
 - [Install Flutter](https://docs.flutter.dev/get-started/install)
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
