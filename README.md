@@ -1,52 +1,130 @@
+<img src="https://raw.githubusercontent.com/maptiler/maptiler-sdk-kotlin/main/Examples/maptiler-logo.png" alt="Company Logo" height="32"/>
+
 # Get started with Flutter and MapLibre GL JS
 
 A quick way to start a mobile native map application with MapLibre GL JS using Flutter.
 
 This simple mobile fullscreen map application is an example of how to use MapTiler maps together with Flutter and MapLibre GL JS for your native app.
 
-We have made this app using the [VS Code Flutter extension](https://docs.flutter.dev/get-started/editor?tab=vscode) and the plugin
-[flutter-maplibre-gl](https://github.com/maplibre/flutter-maplibre-gl/tree/main).
+[![](https://img.shields.io/npm/v/maplibre-gl?style=for-the-badge&labelColor=D3DBEC&color=f2f6ff&logo=npm&logoColor=333359)](https://www.npmjs.com/package/maplibre-gl)
+![](https://img.shields.io/badge/-white?style=for-the-badge&logo=javascript)![](https://img.shields.io/badge/-white?style=for-the-badge&logo=typescript)![](https://img.shields.io/badge/-white?style=for-the-badge&logo=react&logoColor=61dafb)
 
-## Installation and setting up
+---
+
+📖 [Documentation](https://docs.maptiler.com/flutter/) &nbsp; 🌐 [Website](https://www.maptiler.com/) &nbsp; 🔑 [Get API Key](https://cloud.maptiler.com/account/keys/)
+
+---
+
+<br>
+
+<details> <summary><b>Table of Contents</b></summary>
+<ul>
+<li><a href="#-installation">Installation</a></li>
+<li><a href="#-basic-usage">Basic Usage</a></li>
+<li><a href="#-related-examples">Examples</a></li>
+<li><a href="#-support">Support</a></li>
+<li><a href="#-contributing">Contributing</a></li>
+<li><a href="#-license">License</a></li>
+<li><a href="#-acknowledgements">Acknowledgements</a></li>
+</ul>
+</details>
+
+<p align="center">   <img src="https://docs.maptiler.com/flutter/assets/img/thumbnails/how-to-use-sdk-js.png" alt="Demo Screenshot" width="80%"/>
+<br>
+
+## 📦 Installation
 
 1. [Install Flutter](https://docs.flutter.dev/get-started/install)
 
-2. Clone the [Get started with Flutter and MapLibre GL JS](https://github.com/maptiler/get-started-flutter-maplibre-gl-js) repo
-  ```sh
-    git clone https://github.com/maptiler/get-started-flutter-maplibre-gl-js.git my-flutter-map
-  ```
+1. Clone this repo
+   ```shell
+   git clone https://github.com/maptiler/get-started-flutter-maplibre-gl-js.git my-flutter-map
+   ```
 
-3. Navigate to the newly created project folder **my-flutter-map**
-  ```sh
-    cd my-flutter-map
-  ```
+<br>
 
-4. Install dependencies
-  ```sh
-    flutter pub get
-  ```
+## 🚀 Basic Usage
 
-5. :warning: Open the lib/map.dart file and replace **YOUR_MAPTILER_API_KEY_HERE** with your actual [MapTiler API key](https://cloud.maptiler.com/account/keys/).
+1. Navigate to the newly created project folder **my-flutter-map**
 
-  :information_source: If you don't have an API KEY you can create it for **FREE** at https://www.maptiler.com/cloud/
+   ```shell
+   cd my-flutter-map
+   ```
 
-6. Build your project
-  ```sh
-    flutter run
-  ```
+1. Install dependencies
 
-7. You will find your app on your virtual device (Emulator) or physical device.
+   ```shell
+   flutter pub get
+   ```
 
-## Resources
+1. :warning: Open the lib/map.dart file and replace **YOUR_MAPTILER_API_KEY_HERE** with your actual [MapTiler API key](https://cloud.maptiler.com/account/keys/).
 
-Here are a few resources to get you started if this is your first Flutter project:
+   :information_source: If you don't have an API KEY you can create it for **FREE** at https://www.maptiler.com/cloud/
 
-- [Install Flutter](https://docs.flutter.dev/get-started/install)
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Build your project
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   ```shell
+   flutter run
+   ```
 
-For help with [Flutter MapLibre](https://github.com/maplibre/flutter-maplibre-gl/) view the online documentation.
+1. You will find your app on your virtual device (Emulator) or physical device.
+
+<br>
+
+## 💡 Related Examples
+
+- [Get started with Flutter and MapTiler GL JS](https://docs.maptiler.com/flutter/)
+
+<br>
+
+## 💬 Support
+
+- 📚 [Documentation](https://docs.maptiler.com/flutter/) - Comprehensive guides and API reference
+- ✉️ [Contact us](https://maptiler.com/contact) - Get in touch or submit a request
+- 🐦 [Twitter/X](https://twitter.com/maptiler) - Follow us for updates
+
+<br>
+
+---
+
+<br>
+
+## 🤝 Contributing
+
+We love contributions from the community! Whether it's bug reports, feature requests, or pull requests, all contributions are welcome:
+
+- Fork the repository and create your branch from `main`
+- If you've added code, add tests that cover your changes
+- Ensure your code follows our style guidelines
+- Give your pull request a clear, descriptive summary
+- Open a Pull Request with a comprehensive description
+
+<br>
+
+## 📄 License
+
+This project is licensed under the MIT License – see the [LICENSE](./LICENSE) file for details.
+
+<br>
+
+## 🙏 Acknowledgements
+
+This project is built on the shoulders of giants:
+
+- [MapTiler](https://www.maptiler.com/) – Maps for developers
+- [MapLibre GL JS](https://maplibre.org/maplibre-gl-js/docs/) – Open-source TypeScript library for publishing maps on your website
+- [VS Code Flutter extension](https://docs.flutter.dev/get-started/editor?tab=vscode) – Flutter support and debugger for Visual Studio Code
+- [flutter-maplibre-gl](https://github.com/maplibre/flutter-maplibre-gl) – Flutter plugin for MapLibre
+
+<br>
+
+<p align="center" style="margin-top:20px;margin-bottom:20px;"> <a href="https://cloud.maptiler.com/account/keys/" style="display:inline-block;padding:12px 32px;background:#F2F6FF;color:#000;font-weight:bold;border-radius:6px;text-decoration:none;"> Get Your API Key <sup style="background-color:#0000ff;color:#fff;padding:2px 6px;font-size:12px;border-radius:3px;">FREE</sup><br /> <span style="font-size:90%;font-weight:400;">Start building with 100,000 free map loads per month ・ No credit card required.</span> </a> </p>
+
+<br>
+
+<p align="center"> 💜 Made with love by the <a href="https://www.maptiler.com/">MapTiler</a> team <br />
+<p align="center">
+  <a href="https://www.maptiler.com/">Website</a> •
+  <a href="https://docs.maptiler.com/flutter/">Documentation</a> •
+  <a href="https://github.com/maptiler/get-started-flutter-maplibre-gl-js">GitHub</a>
+</p>
